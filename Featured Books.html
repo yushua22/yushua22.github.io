@@ -1,0 +1,479 @@
+<HTML>
+<HEAD>
+	<TITLE>Newbery Books Website - Featured Books </TITLE>
+
+	  <link rel="icon" 
+     type="image/png" 
+     href="https://s-media-cache-ak0.pinimg.com/originals/ec/1a/99/ec1a99cb1c585f89b96ab22e31dcd767.jpg">
+
+
+<STYLE type="text/css">
+
+nav{
+	position: fixed;
+	left: 50px;
+	z-index: 20;
+}
+
+/*dropdown menu starts*/
+nav ul ul {
+display: none;
+text-decoration: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+
+box-shadow: 0px 0px 0px rgba(0,0,0,0.8);
+padding: 0 200px;
+padding-top: 10px;
+border-radius: 0px; 
+list-style: none;
+position: fixed;
+display: inline-table;
+opacity: 1;
+z-index:11;
+text-decoration: none;
+/*length*/
+width: 1000px;
+top: -20px;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #FFFFFF  ;
+text-decoration: none;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+text-decoration: none;
+
+}
+
+nav ul ul {
+background: #999999; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #454545; /*borders between menu items */
+border-bottom: 1px solid #454545;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #454545;
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+
+#logo {
+	z-index: 11;
+	left: 0px;
+	top: 0px;
+	height: 90;
+	position: fixed;
+}
+
+#text {
+	opacity: 0.2;
+}
+
+#menubg{
+	background: #999999;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+#menuwords {
+	font-family: cursive;
+	font-size: 18;
+}
+
+#allbooks {
+	font-size: 13;
+	text-decoration: none;
+}
+/*dropdown menu ended*/
+
+#table {
+	font-size: 20;
+	text-decoration: none;
+	color: black;
+}
+
+#tablefont {
+	font-size: 20;
+	color: blue;
+	text-decoration: none;
+}
+
+#featuredbooks {
+	font-size: 50;
+	color: black;
+}
+
+
+</STYLE>
+</HEAD>
+
+<BODY bgcolor= lightyellow link='white' vlink='white' alink='white'>
+<DIV id='menubg'></DIV>
+<IMG src= 'Images/New Newbery Logo.png' id= 'logo'>
+<H3>
+<NAV>
+<UL>
+<DIV id= 'menuwords'>
+<LI> <A HREF = index.html> Home </A> </LI>
+
+				<LI> <A HREF = 'About Us.html'> About Us </A> </LI>
+
+			<LI> <A HREF = 'Featured Books.html'> Featured </A> </LI>
+
+<DIV id= 'allbooks'>
+		<LI> <A HREF = 'All Newbery Books.html'> All Newbery Books </A> </LI>
+</DIV>		
+</UL>
+</DIV>
+</NAV>
+<BR><BR><BR><BR><BR>
+<FONT id='featuredbooks'>
+<CENTER>Featured Books</CENTER>
+</FONT>
+<BR>
+<CENTER><TABLE id='table' border= 0>
+	<TR>
+		<TD> <A id= 'tablefont' href='#Mystery'>Mystery</A> </TD>
+		
+		<TD> <A id= 'tablefont' href='#Science Fiction'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science Fiction</A> </TD>
+
+		<TD> <A id= 'tablefont' href='#Realistic Fiction'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Realistic Fiction</A> </TD>
+
+		<TD> <A id= 'tablefont' href='#Historical Fiction'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Historical Fiction</A> <A name='Mystery'></A></TD>
+	</TR>
+</TABLE>
+
+
+<BR><BR><BR><BR><BR><CENTER>
+Mystery
+<BR>
+
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/Holes.jpg' height='367'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>Holes</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Louis Sachar</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Adventure/ Mystery/ Fantasy</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>1999</TD>
+	</TR>
+	<TR>
+		<TD><B>Summary:</B></TD>
+		<TD>Stanley Yelnats is under a curse. A curse that began with his no-good- dirty-rotten-pig-stealing great-great- grandfather and has since followed generation of Yelnatses. Now Stanley has been unjustly sent to a boy’ detention center, Camp Green Lake, where the boys build character by spending all day, every day, digging holes exactly five feet wide and five feet deep. There is no lake at Camp Green Lake. But there are an awful lot of holes.
+		But what could be buried under a dried-up lake? Stanley tries to dig up the truth in this inventive and darkly humorous tale of crime and punishment-and redemption. <A NAME='Science Fiction'></A> </TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</TD>
+		<TD>There is no lake at Camp Green Lake... </TD>
+	</TR>
+</TABLE>
+<BR><BR>
+Science Fiction
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/A wrinkle in time digest.jpg' height='356'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>A Wrinkle in Time</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Madeleine L'Engle</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Science Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>1963</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>Out of a dark and stormy night, a strange visitor comes to the Murry house and beckons Meg, her brother Charles Wallace, and their friend Calvin O’Keefe on a most dangerous and extraordinary adventure –– one that will threaten their lives and our universe.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:<A NAME='Realistic Fiction'></A></TD>
+		<TD>It was a dark and stormy night...</TD>
+	</TR>
+</TABLE>
+<BR><BR>
+Realistic Fiction
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/From the Mixed Up Files of Mrs. Basil E. Frankweiler.jpg' height='360'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>From the Mixed Up Files of Mrs. Basil E. Frankweiler</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>E. L. Konigsburg</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Realistic Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>1968</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>Having run away with her younger brother to live in the Metropolitan Museum of Art, twelve-year-old Claudia strives to keep things in order in their new home and to become a changed person and a heroine to herself.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</TD>
+		<TD>Claudia knew that she could never pull off the old-fashioned kind of running away...</TD>
+	</TR>
+</TABLE>
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/Missing May.jpg' height='350'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>Missing May</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Cynthia Rylant</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Realistic Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>1993</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>After the death of the beloved aunt who has raised her, twelve-year-old Summer and her uncle Ob leave their West Virginia trailer in search of the strength to go on living.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</TD>
+		<TD>When May died, Ob came back to the trailer, got out of his good suit and into his regular clothes...</TD>
+	</TR>
+</TABLE>
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/Walk two Moons.jpg' height='392'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>Walk Two Moon</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Sharon Creech</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Realistic Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>1995</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>After her mother leaves home suddenly, thirteen-year-old Sal and her grandparents take a car trip retracing her mother’s route. Along the way, Sal recounts the story of her friend Phoebe, whose mother also left.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</TD>
+		<TD>Gramps says that I am a country girl at heart, and that is true...</TD>
+	</TR>
+</TABLE>
+</TABLE>
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/The Higher Power of Lucky.jpg' height='330'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>The Higher Power of Lucky</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Susan Patron</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Realistic Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>2007</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>Fearing that her legal guardian plans to abandon her to return to France, ten-year-old aspiring scientist Lucky Trimble determines to run away while also continuing to seek the Higher Power that will bring stability to her life.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</TD>
+		<TD>Lucky Trimble crouched in the wedge of shade behind the dumpster...</TD>
+	</TR>
+</TABLE>
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/Kira-Kira.jpg' height='356'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>Kira-Kira</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Cynthia Kadohata</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Realistic Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>2005</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>Chronicles the close friendship between two Japanese-American sisters growing up in rural Georgia during the late 1950s and early 1960s, and the despair when one sister becomes terminally ill.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:<A NAME='Historical Fiction'></A></TD>
+		<TD>My sister, Lynn, taught me my first word: kira-kira...</TD>
+	</TR>
+</TABLE>
+<BR><BR>
+Historical Fiction
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/Sarah, Plain, and Tall.jpg' height='365'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>Sarah, Plain, and Tall</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Patricia MacLachlan</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Historical Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>1986</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>When their father invites a mail-order bride to come live with them in their prairie home, Caleb and Anna are captivated by their new mother and hope that she will stay.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</A></TD>
+		<TD>“Did Mama sing every day?” asked Caleb...</TD>
+	</TR>
+</TABLE>
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/A Year Down Yonder.jpg' height='380'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>A Year Down Yonder</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Richard Peck</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Historical Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>2001</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>Mary Alice’s summer days spent in Grandma Dowdel’s hick town had been packed with enough surprises and drama to fill the double bill of any picture show. But now she is fifteen and facing a whole year with Grandma, a woman well known for shaking up the local populace. And all Mary Alice can know for certain is this: When trying to predict how life with Grandma might turn out… better not.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</A></TD>
+		<TD>It was a September morning, hazy with late summer, and now with all the years between...</TD>
+	</TR>
+</TABLE>
+<TABLE>
+	<TR> 
+		<TD rowspan=6><IMG src='Images/A Single Shard.jpg' height='368'></TD>
+		<TD><B>Name:</B></TD>
+		<TD>A Single Shard</TD>
+	</TR>
+	<TR>
+		<TD><B>Author:</B></TD>
+		<TD>Linda Sue Park</TD>
+	</TR>
+	<TR>
+		<TD><B>Genre:</B></TD>
+		<TD>Historical Fiction</TD>
+	</TR>
+	<TR>
+		<TD><B>Year:</B></TD>
+		<TD>2002</TD>
+	</TR>
+	<TR>
+		<TD>Summary:</TD>
+		<TD>Foraging in fields and on rubbish heaps, and sharing the food with his friend Crane-man used to be enough to fill Tree-ear’s days. But now all Tree-ear wants to do is watch master potter Min at work.</TD>
+	</TR>
+	<TR>
+		<TD>First Sentence:</A></TD>
+		<TD>“Eh- Tree-ear! Have you hungered well today?” Crane-man called out as Tree-ear drew near the bridge...</TD>
+	</TR>
+</TABLE>
+</BODY>
+</HTML >

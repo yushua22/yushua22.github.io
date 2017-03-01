@@ -1,0 +1,280 @@
+<HTML>
+<HEAD>
+	<TITLE>Newbery Books Website - About Us</TITLE>
+
+	  <link rel="icon" 
+     type="image/png" 
+     href="https://s-media-cache-ak0.pinimg.com/originals/ec/1a/99/ec1a99cb1c585f89b96ab22e31dcd767.jpg">
+
+
+<STYLE type="text/css">
+
+nav{
+	position: fixed;
+	left: 50px;
+	z-index: 11;
+}
+
+/*dropdown menu starts*/
+nav ul ul {
+display: none;
+text-decoration: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+
+box-shadow: 0px 0px 0px rgba(0,0,0,0.8);
+padding: 0 200px;
+padding-top: 10px;
+border-radius: 0px; 
+list-style: none;
+position: fixed;
+display: inline-table;
+opacity: 1;
+z-index:1;
+text-decoration: none;
+/*length*/
+width: 1000px;
+top: -20px;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #FFFFFF  ;
+text-decoration: none;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+text-decoration: none;
+
+}
+
+nav ul ul {
+background: #999999; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #454545; /*borders between menu items */
+border-bottom: 1px solid #454545;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #454545;
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+
+#logo {
+	z-index: 11;
+	left: 0px;
+	top: 0px;
+	height: 90;
+	position: fixed;
+}
+
+#text {
+	opacity: 0.2;
+}
+
+#menubg{
+	background: #999999;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+#menuwords {
+	font-family: cursive;
+	font-size: 18;
+}
+
+#allbooks {
+	font-size: 13;
+	text-decoration: none;
+}
+/*dropdown menu ended*/
+
+#Newberymedal{
+	top: -905px;
+	left: 234px;
+	position: relative;
+	z-index: -1;
+}
+
+#Home{
+	top: -1397px;
+	left: -310px;
+	position: relative;
+	z-index: -1;
+}
+
+#Square1{
+	position: absolute;
+	left: -10;
+	height: 600px;
+	width: 647px;
+	background: lavender;
+	z-index: -1;
+}
+
+#Square2{
+	position: absolute;
+	left:647;
+	height: 600px;
+	width: 647px;
+	background: lightblue;
+	z-index: -1;
+}
+
+
+#featuredbooks {
+	font-size: 50;
+	color: black;
+	z-index: 4;
+}
+
+#Ann {
+	top: 380;
+	left: 660;
+	position: absolute;
+	z-index: 5;
+}
+
+#Ann-Intro {
+	top: 380;
+	left:1000;
+	position: absolute;
+	z-index: 4;
+	font-family: helvetica;
+	font-size: 16;
+	color: darkblue;
+}
+
+#Issa {
+	top: 380;
+	left: 400;
+	position: absolute;
+	z-index: 5;
+}
+
+#Issa-intro {
+	top: 380;
+	left:20;
+	position: absolute;
+	z-index: 4;
+	font-family: helvetica;
+	font-size: 16;
+	color: indigo;
+}
+#dis {
+	position: absolute;
+	top:99;
+	left: 450;
+}
+</STYLE>
+</HEAD>
+
+<BODY bgcolor= lightyellow link='white' vlink='white' alink='white'>
+
+<DIV id='menubg'></DIV>
+<IMG src= 'Images/New Newbery Logo.png' id= 'logo'>
+<H3>
+
+<NAV>
+<UL>
+<DIV id= 'menuwords'>
+<LI> <A HREF = 'index.html'> Home </A> </LI>
+	<LI> <A HREF = 'About Us.html'> About Us </A> </LI>
+
+		<LI> <A HREF = 'Featured Books.html'> Featured </A></LI>
+
+<DIV id= 'allbooks'>
+		<LI> <A HREF = 'All Newbery Books.html'> All Newbery Books </A> </LI>
+</DIV>		
+</UL>
+</DIV>
+</NAV>
+<BR><BR><BR><BR><BR><CENTER>
+<DIV id='dis'>
+<IMG src= 'Images/New Newbery Logo.png' height= '100'>
+</DIV>
+
+<FONT id= featuredbooks>
+bout Us
+</FONT>
+<BR>
+<BR>
+<BR>Site Creators: Issa Huang and Ann Tai
+<BR>
+<BR>Special Thanks to: Mr. Pilon, who helped us debug problems and providing awesome advices.
+<BR><BR><BR><BR>
+
+<DIV id= 'Ann-Intro'>
+<P align= left> Ann created the the contents of the About Us page. She tinkered around with the menu bar and circles of the Home Page. All subpages were created with aid from Mr. Pilon and Issa.
+<BR><BR>
+<BR>Let’s play a game of “Let’s state the obvious” shall we?
+<BR><BR>
+<BR>Ann currently studies in Kaohsiung American School.
+<BR>Ann is a girl.
+<BR>Ann is wearing a lunch bag on her head.
+<BR><BR>Anything else you'd like to know? 
+</P>
+</DIV>
+<DIV id= 'Issa-intro'>
+<P align= left>
+<BR>Issa created the Featured Books subpage of <BR>Newbery Books Website and the book menu of All <BR> Newbery Books and the Home Page. Issa excels <BR>in teamwork and isn’t afraid to ask for help when <BR>presented with a problem beyond her skills.
+<BR><BR>
+Issa currently studies in Kaohsiung American <BR>School. 
+Issa likes Studio Ghibli movies and <BR>characters. Her favorite character is Totoro. 
+<BR>Because of privacy reasons, 
+her picture is not <BR>shown here. 
+<BR>Enjoy this cute picture of Totoro and his friends!
+</P>
+</DIV>
+<DIV id= Ann><IMG src= 'Images/Me in Lunchbag.jpg' height= '400'></DIV>
+<DIV id= Issa><IMG src= 'Images/Issa_profile.jpg' height= '400'></IMG></DIV>
+<DIV id='Square1'></DIV>
+<DIV id='Square2'></DIV>
+ </BODY>
+</HTML >

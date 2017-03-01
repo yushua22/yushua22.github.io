@@ -1,0 +1,781 @@
+<HTML>
+<HEAD>
+	<TITLE>Newbery Books Website - All Newbery Books </TITLE>
+
+	  <link rel="icon" 
+     type="image/png" 
+     href="https://s-media-cache-ak0.pinimg.com/originals/ec/1a/99/ec1a99cb1c585f89b96ab22e31dcd767.jpg">
+
+
+<STYLE type="text/css">
+
+nav{
+	position: fixed;
+	left: 50px;
+	z-index: 11;
+}
+
+/*dropdown menu starts*/
+nav ul ul {
+display: none;
+text-decoration: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+
+box-shadow: 0px 0px 0px rgba(0,0,0,0.8);
+padding: 0 200px;
+padding-top: 10px;
+border-radius: 0px; 
+list-style: none;
+position: fixed;
+display: inline-table;
+opacity: 1;
+z-index:1;
+text-decoration: none;
+/*length*/
+width: 1000px;
+top: -20px;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #FFFFFF  ;
+text-decoration: none;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+text-decoration: none;
+
+}
+
+nav ul ul {
+background: #999999; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #454545; /*borders between menu items */
+border-bottom: 1px solid #454545;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #454545;
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/*dropdown ends*/
+
+#logo {
+	z-index: 11;
+	left: 0px;
+	top: 0px;
+	height: 90;
+	position: fixed;
+}
+
+#text {
+	opacity: 0.2;
+}
+
+#menubg{
+	background: #999999;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 6;
+}
+
+#menuwords {
+	font-family: cursive;
+	font-size: 18;
+}
+
+#allbooks {
+	font-size: 13;
+	text-decoration: none;
+}
+
+/*table start*/
+#table{
+	position: absolute;
+	z-index: -1
+	left:10;
+}
+
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+#here {
+	color: purple;
+	size: 11;
+}
+
+
+
+</STYLE>
+</HEAD>
+
+<BODY bgcolor= #FEF9E7 link='white' vlink='white' alink='white'>
+<DIV id='menubg'></DIV>
+<IMG src= 'Images/New Newbery Logo.png' id= 'logo'>
+<H3>
+<NAV>
+<UL>
+<DIV id= 'menuwords'>
+<LI> <A HREF = index.html> Home </A> </LI>
+
+				<LI> <A HREF = 'About Us.html'> About Us </A> </LI>
+
+			<LI> <A HREF = 'Featured Books.html'> Featured </A> </LI>
+
+<DIV id= 'allbooks'>
+		<LI> <A HREF = 'All Newbery Books.html'> All Newbery Books </A> </LI>
+</DIV>		
+</UL>
+</DIV>
+</NAV>
+<BR><BR><BR><BR>
+
+To visit the official Newbery Website, click 
+<FONT> <A id= 'here' href= http://www.ala.org/alsc/awardsgrants/bookmedia/newberymedal/newberymedal target=_blank > here</A>.
+</FONT>
+<BR><BR>
+<i> Tip: For easier navigation, use command F and type in the book title or year. </i>
+<BR>
+<BR>
+
+<table id='table'>
+
+	<tr>
+		<td><B>Year</B></td>
+		<td><B>Books Title</B></td>
+		<td><B>Author</B></td>
+	</tr>
+
+	<tr>
+		<td>1922</td>
+		<td><U>The Story of Mankind</U></td>
+		<td>Hendrik Willem van Loon</td>
+	</tr>
+
+	<tr>
+		<td>1923</td>
+		<td><U>The Voyages of Doctor Dolittle</U></td>
+		<td>Hugh Lofting</td>
+	</tr>
+
+	<tr>
+		<td>1924</td>
+		<td><U>The Dark Frigate</U></td>
+		<td>Charles Hawes</td>
+	</tr>
+
+	<tr>
+		<td>1925</td>
+		<td><U>Tales from Silver Lands</U></td>
+		<td>Charles Finger</td>
+	</tr>
+
+	<tr>
+		<td>1926</td>
+		<td><U>Shen of the Sea</U></td>
+		<td>Arthur Bowie Chrisman</td>
+	</tr>
+
+	<tr>
+		<td>1927</td>
+		<td><U>Smoky, the Cowhorse</U></td>
+		<td>Will James</td>
+	</tr>
+
+	<tr>
+		<td>1928</td>
+		<td><U>Gay Neck, the Story of a Pigeon</U></td>
+		<td>Dhan Gopal Mukerji</td>
+	</tr>
+
+	<tr>
+		<td>1929</td>
+		<td><U>The Trumpeter of Krakow</U></td>
+		<td>Eric P. Kelly</td>
+	</tr>
+
+	<tr>
+		<td>1930</td>
+		<td><U>Hitty, Her First Hundred Years</U></td>
+		<td>Rachel Field</td>
+	</tr>
+
+	<tr>
+		<td>1931</td>
+		<td><U>The Cat Who Went to Heaven</U></td>
+		<td>Elizabeth Coatsworth</td>
+	</tr>
+
+	<tr>
+		<td>1932</td>
+		<td><U>Waterless Mountain</U></td>
+		<td>Laura Adams Armer</td>
+	</tr>
+
+	<tr>
+		<td>1933</td>
+		<td><U>Young Fu of the Upper Yangtze</U></td>
+		<td>Elizabeth Lewis</td>
+	</tr>
+
+	<tr>
+		<td>1934</td>
+		<td><U>Invincible Louisa: The Story of the Author of Little Women</U></td>
+		<td>Cornelia Meigs</td>
+	</tr>
+
+	<tr>
+		<td>1935</td>
+		<td><U>Dobry</U></td>
+		<td>Monica Shannon</td>
+	</tr>
+
+	<tr>
+		<td>1936</td>
+		<td><U>Caddie Woodlawn</U></td>
+		<td>Carol Ryrie Brink</td>
+	</tr>
+
+	<tr>
+		<td>1937</td>
+		<td><U>Roller Skates</U></td>
+		<td>Ruth Sawyer</td>
+	</tr>
+
+	<tr>
+		<td>1938</td>
+		<td><U>The White Stag</U></td>
+		<td>Kate Seredy</td>
+	</tr>
+
+	<tr>
+		<td>1939</td>
+		<td><U>Thimble Summer</U></td>
+		<td>Elizabeth Enright</td>
+	</tr>
+
+	<tr>
+		<td>1940</td>
+		<td><U>Daniel Boone</U></td>
+		<td>James Daugherty</td>
+	</tr>
+
+	<tr>
+		<td>1941</td>
+		<td><U>Call It Courage</U></td>
+		<td>Armstrong Sperry</td>
+	</tr>
+
+	<tr>
+		<td>1942</td>
+		<td><U>The Matchlock Gun</U></td>
+		<td>Walter Edmonds</td>
+	</tr>
+
+	<tr>
+		<td>1943</td>
+		<td><U>Adam of the Road</U></td>
+		<td>Elizabeth Janet Gray</td>
+	</tr>
+
+	<tr>
+		<td>1944</td>
+		<td><U>Johnny Tremain</U></td>
+		<td>Esther Forbes</td>
+	</tr>
+
+	<tr>
+		<td>1945</td>
+		<td><U>Rabbit Hill</U></td>
+		<td>Robert Lawson</td>
+	</tr>
+
+	<tr>
+		<td>1946</td>
+		<td><U>Strawberry Girl</U></td>
+		<td>Lois Lenski</td>
+	</tr>
+
+	<tr>
+		<td>1947</td>
+		<td><U>Miss Hickory</U></td>
+		<td>Carolyn Sherwin Bailey</td>
+	</tr>
+
+	<tr>
+		<td>1948</td>
+		<td><U>The Twenty-One Balloons</U></td>
+		<td>William Pène du Bois</td>
+	</tr>
+
+	<tr>
+		<td>1949</td>
+		<td><U>King of the Wind</U></td>
+		<td>Marguerite Henry</td>
+	</tr>
+
+	<tr>
+		<td>1950</td>
+		<td><U>The Door in the Wall</U></td>
+		<td>Marguerite de Angeli</td>
+	</tr>
+
+	<tr>
+		<td>1951</td>
+		<td><U>Amos Fortune, Free Man</U></td>
+		<td>Elizabeth Yates</td>
+	</tr>
+
+	<tr>
+		<td>1952</td>
+		<td><U>Ginger Pye</U></td>
+		<td>Eleanor Estes</td>
+	</tr>
+
+	<tr>
+		<td>1953</td>
+		<td><U>Secret of the Andes</U></td>
+		<td>Ann Nolan Clark</td>
+	</tr>
+
+	<tr>
+		<td>1954</td>
+		<td><U>And Now Miguel</U></td>
+		<td>Joseph Krumgold</td>
+	</tr>
+
+	<tr>
+		<td>1955</td>
+		<td><U>The Wheel on the School</U></td>
+		<td>Meindert DeJong</td>
+	</tr>
+
+	<tr>
+		<td>1956</td>
+		<td><U>Carry On, Mr. Bowditch</U></td>
+		<td>Jean Lee Latham</td>
+	</tr>
+
+	<tr>
+		<td>1957</td>
+		<td><U>Miracles on Maple Hill</U></td>
+		<td>Virginia Sorensen</td>
+	</tr>
+
+	<tr>
+		<td>1958</td>
+		<td><U>Rifles for Watie</U></td>
+		<td>Harold Keith</td>
+	</tr>
+
+	<tr>
+		<td>1959</td>
+		<td><U>The Witch of Blackbird Pond</U></td>
+		<td>Elizabeth George Speare</td>
+	</tr>
+
+	<tr>
+		<td>1960</td>
+		<td><U>Onion John</U></td>
+		<td>Joseph Krumgold</td>
+	</tr>
+
+	<tr>
+		<td>1961</td>
+		<td><U>Island of the Blue Dolphins</U></td>
+		<td>Scott O'Dell</td>
+	</tr>
+
+	<tr>
+		<td>1962</td>
+		<td><U>The Bronze Bow</U></td>
+		<td>Elizabeth George Speare</td>
+	</tr>
+
+	<tr>
+		<td>1963</td>
+		<td><U>A Wrinkle in Time</U></td>
+		<td>Madeleine L'Engle</td>
+	</tr>
+
+	<tr>
+		<td>1964</td>
+		<td><U>It's Like This, Cat</U></td>
+		<td>Emily Neville</td>
+	</tr>
+
+	<tr>
+		<td>1965</td>
+		<td><U>Shadow of a Bull</U></td>
+		<td>Maia Wojciechowska</td>
+	</tr>
+
+	<tr>
+		<td>1966</td>
+		<td><U>I, Juan de Pareja</U></td>
+		<td>Elizabeth Borton de Trevino</td>
+	</tr>
+
+	<tr>
+		<td>1967</td>
+		<td><U>Up a Road Slowly</U></td>
+		<td>Irene Hunt</td>
+	</tr>
+
+	<tr>
+		<td>1968</td>
+		<td><U>From the Mixed-Up Files of Mrs. Basil E. Frankweiler</U></td>
+		<td>E.L. Konigsburg</td>
+	</tr>
+
+	<tr>
+		<td>1969</td>
+		<td><U>The High King</U></td>
+		<td>Lloyd Alexander</td>
+	</tr>
+
+	<tr>
+		<td>1970</td>
+		<td><U>Sounder</U></td>
+		<td>William H. Armstrong</td>
+	</tr>
+
+	<tr>
+		<td>1971</td>
+		<td><U>Summer of the Swans</U></td>
+		<td>Betsy Byars</td>
+	</tr>
+
+	<tr>
+		<td>1972</td>
+		<td><U>Mrs. Frisby and the Rats of NIMH</U></td>
+		<td>Robert C. O'Brien</td>
+	</tr>
+
+	<tr>
+		<td>1973</td>
+		<td><U>Julie of the Wolves</U></td>
+		<td>Jean Craighead George</td>
+	</tr>
+
+	<tr>
+		<td>1974</td>
+		<td><U>The Slave Dancer</U></td>
+		<td>Paula Fox</td>
+	</tr>
+
+	<tr>
+		<td>1975</td>
+		<td><U>M. C. Higgins, the Great</U></td>
+		<td>Virginia Hamilton</td>
+	</tr>
+
+	<tr>
+		<td>1976</td>
+		<td><U>The Grey King</U></td>
+		<td>Susan Cooper</td>
+	</tr>
+
+	<tr>
+		<td>1977</td>
+		<td><U>Roll of Thunder, Hear My Cry</U></td>
+		<td>Mildred D. Taylor</td>
+	</tr>
+
+	<tr>
+		<td>1978</td>
+		<td><U>Bridge to Terabithia</U></td>
+		<td>Katherine Paterson</td>
+	</tr>
+
+	<tr>
+		<td>1979</td>
+		<td><U>The Westing Game</U></td>
+		<td>Ellen Raskin</td>
+	</tr>
+
+	<tr>
+		<td>1980</td>
+		<td><U>A Gathering of Days: A New England Girl's Journal, 1830-1832</U></td>
+		<td>Joan W. Blos</td>
+	</tr>
+
+	<tr>
+		<td>1981</td>
+		<td><U>Jacob Have I Loved</U></td>
+		<td>Katherine Paterson</td>
+	</tr>
+
+	<tr>
+		<td>1982</td>
+		<td><U>A Visit to William Blake's Inn: Poems for Innocent and Experienced Travelers</U></td>
+		<td>Nancy Willard</td>
+	</tr>
+
+	<tr>
+		<td>1983</td>
+		<td><U>Dicey's Song</U></td>
+		<td>Cynthia Voigt</td>
+	</tr>
+
+	<tr>
+		<td>1984</td>
+		<td><U>Dear Mr. Henshaw</U></td>
+		<td>Beverly Cleary</td>
+	</tr>
+
+	<tr>
+		<td>1985</td>
+		<td><U>The Hero and the Crown</U></td>
+		<td>Robin McKinley</td>
+	</tr>
+
+	<tr>
+		<td>1986</td>
+		<td><U>Sarah, Plain and Tall</U></td>
+		<td>Patricia MacLachlan</td>
+	</tr>
+
+	<tr>
+		<td>1987</td>
+		<td><U>The Whipping Boy</U></td>
+		<td>Sid Fleischman</td>
+	</tr>
+
+	<tr>
+		<td>1988</td>
+		<td><U>Lincoln: A Photobiography</U></td>
+		<td>Russell Freedman</td>
+	</tr>
+
+	<tr>
+		<td>1989</td>
+		<td><U>Joyful Noise: Poems for Two Voices</U></td>
+		<td>Paul Fleischman</td>
+	</tr>
+
+	<tr>
+		<td>1990</td>
+		<td><U>Number the Stars</U></td>
+		<td>Lois Lowry</td>
+	</tr>
+
+	<tr>
+		<td>1991</td>
+		<td><U>Maniac Magee</U></td>
+		<td>Jerry Spinelli</td>
+	</tr>
+
+	<tr>
+		<td>1992</td>
+		<td><U>Shiloh</U></td>
+		<td>Phyllis Reynolds Naylor</td>
+	</tr>
+
+	<tr>
+		<td>1993</td>
+		<td><U>Missing May</U></td>
+		<td>Cynthia Rylant</td>
+	</tr>
+
+	<tr>
+		<td>1994</td>
+		<td><U>The Giver</U></td>
+		<td>Lois Lowry</td>
+	</tr>
+
+	<tr>
+		<td>1995</td>
+		<td><U>Walk Two Moons</U></td>
+		<td>Sharon Creech</td>
+	</tr>
+
+	<tr>
+		<td>1996</td>
+		<td><U>The Midwife's Apprentice</U></td>
+		<td>Karen Cushman</td>
+	</tr>
+
+	<tr>
+		<td>1997</td>
+		<td><U>The View from Saturday</U></td>
+		<td>E.L. Konigsburg</td>
+	</tr>
+
+	<tr>
+		<td>1998</td>
+		<td><U>Out of the Dust</U></td>
+		<td>Karen Hesse</td>
+	</tr>
+
+	<tr>
+		<td>1999</td>
+		<td><U>Holes</U></td>
+		<td>Louis Sachar</td>
+	</tr>
+
+	<tr>
+		<td>2000</td>
+		<td><U>Bud, Not Buddy</U></td>
+		<td>Christopher Paul Curtis</td>
+	</tr>
+
+	<tr>
+		<td>2001</td>
+		<td><U>A Year Down Yonder</U></td>
+		<td>Richard Peck</td>
+	</tr>
+
+	<tr>
+		<td>2002</td>
+		<td><U>A Single Shard</U></td>
+		<td>Linda Sue Park</td>
+	</tr>
+
+	<tr>
+		<td>2003</td>
+		<td><U>Crispin: The Cross of Lead</U></td>
+		<td>Avi</td>
+	</tr>
+
+	<tr>
+		<td>2004</td>
+		<td><U>The Tale of Despereaux: Being the Story of a Mouse, a Princess, Some Soup, and a Spool of Thread</U></td>
+		<td>Kate DiCamillo</td>
+	</tr>
+
+	<tr>
+		<td>2005</td>
+		<td><U>Kira-Kira</U></td>
+		<td>Cynthia Kadohata</td>
+	</tr>
+
+	<tr>
+		<td>2006</td>
+		<td><U>Criss Cross</U></td>
+		<td>Lynne Rae Perkins</td>
+	</tr>
+
+	<tr>
+		<td>2007</td>
+		<td><U>The Higher Power of Lucky</U></td>
+		<td>Susan Patron, illus. by Matt Phelan</td>
+	</tr>
+
+	<tr>
+		<td>2008</td>
+		<td><U>Good Masters! Sweet Ladies! Voices from a Medieval Village</U></td>
+		<td>Laura Amy Schlitz</td>
+	</tr>
+
+	<tr>
+		<td>2009</td>
+		<td><U>The Graveyard Book</U></td>
+		<td>Neil Gaiman, illus. by Dave McKean</td>
+	</tr>
+
+	<tr>
+		<td>2010</td>
+		<td><U>When You Reach Me</U></td>
+		<td>Rebecca Stead</td>
+	</tr>
+
+	<tr>
+		<td>2011</td>
+		<td><U>Moon over Manifest</U></td>
+		<td>Clare Vanderpool</td>
+	</tr>
+
+	<tr>
+		<td>2012</td>
+		<td><U>Dead End in Norvelt</U></td>
+		<td>Jack Gantos</td>
+	</tr>
+
+	<tr>
+		<td>2013</td>
+		<td><U>The One and Only Ivan</U></td>
+		<td>Katherine Applegate</td>
+	</tr>
+
+	<tr>
+		<td>2014</td>
+		<td><U>Flora & Ulysses: The Illuminated Adventures</U></td>
+		<td>Kate DiCamillo</td>
+	</tr>
+
+	<tr>
+		<td>2015</td>
+		<td><U>The Crossover</U></td>
+		<td>Kwame Alexander</td>
+	</tr>
+
+	<tr>
+		<td>2016</td>
+		<td><U>Last Stop on Market Street</U></td>
+		<td>Matt de la Peña</td>
+	</tr>
+
+</table>
+
+<BR><BR><BR><BR><BR><CENTER>
+</BODY>
+</HTML >

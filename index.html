@@ -1,0 +1,249 @@
+<HTML>
+<HEAD>
+	<TITLE>Newbery Books Website - Home</TITLE>
+
+	  <link rel="icon" 
+     type="image/png" 
+     href="https://s-media-cache-ak0.pinimg.com/originals/ec/1a/99/ec1a99cb1c585f89b96ab22e31dcd767.jpg">
+
+
+<STYLE type="text/css">
+
+nav{
+	position: fixed;
+	left: 50px;
+	z-index: 11;
+}
+
+/*dropdown menu starts*/
+nav ul ul {
+display: none;
+text-decoration: none;
+}
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+
+box-shadow: 0px 0px 0px rgba(0,0,0,0.8);
+padding: 0 200px;
+padding-top: 10px;
+border-radius: 0px; 
+list-style: none;
+position: fixed;
+display: inline-table;
+opacity: 1;
+z-index:1;
+text-decoration: none;
+/*length*/
+width: 1000px;
+top: -20px;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #FFFFFF  ;
+text-decoration: none;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+text-decoration: none;
+
+}
+
+nav ul ul {
+background: #999999; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #454545; /*borders between menu items */
+border-bottom: 1px solid #454545;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #454545;
+background: linear-gradient(top, #999999 0%, #454545 40%);
+background: -moz-linear-gradient(top, #999999 0%, #454545 40%);
+background: -webkit-linear-gradient(top, #999999 0%,#454545 40%);
+}
+
+
+#logo {
+	z-index: 11;
+	left: 0px;
+	top: 0px;
+	height: 90;
+	position: fixed;
+
+}
+
+#text {
+	opacity: 0.2;
+}
+
+#menubg{
+	background: #999999;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+
+#menuwords {
+	font-family: cursive;
+	font-size: 18;
+}
+
+#allbooks {
+	font-size: 13;
+	text-decoration: none;
+}
+/*dropdown menu ended*/
+
+/*circlecirclecirclecircle*/
+#circle_1 {
+	width: 400px;
+	height: 400px;
+	background: #E67E22;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	position: relative;
+	z-index: -2;
+	top: 50px;
+	left: -320px;
+}
+
+#circle_2 {
+	width: 400px;
+	height: 400px;
+	background: #EB984E;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	position: relative;
+	z-index: -2;
+	top: -130px;
+	left: 230px;
+}
+
+#circle_3{
+	width: 400px;
+	height: 400px;
+	background: #F0B27A;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	position: relative;
+	z-index: -2;
+	top: -250px;
+	left: -270px;
+}
+
+
+#Newberymedal{
+	top: -905px;
+	left: 230px;
+	position: relative;
+	z-index: 5;
+	
+}
+
+#Home{
+	top: -1417px;
+	left: -310px;
+	position: relative;
+	z-index: 5;	
+}
+
+#AllNewberyBook{
+	top: -1246px;
+	left: -266px;
+	position: relative;
+	z-index: 5;	
+}
+
+</STYLE>
+</HEAD>
+
+<BODY bgcolor= #FEF9E7 link='white' vlink='white' alink='white'>
+<DIV id='menubg'></DIV>
+<IMG src= 'Images/New Newbery Logo.png' id= 'logo'>
+<H3>
+<NAV>
+<UL>
+<DIV id= 'menuwords'>
+<LI> <A HREF = 'index.html'> Home </A> </LI>
+
+		<LI> <A HREF = 'About Us.html'> About Us </A> </LI>
+
+		<LI> <A HREF = 'Featured Books.html'> Featured </A> </LI>
+
+<DIV id= 'allbooks'>
+		<LI> <A HREF = 'All Newbery Books.html'> All Newbery Books </A> </LI>
+</DIV>		
+</UL>
+</DIV>
+</NAV>
+
+<BR><BR><BR><BR><BR><CENTER>
+<CENTER>
+<CENTER><TABLE>
+<TR><IMG src='Images/books.jpg' name='P1' height='400'></IMG></TR>
+<TR>
+<TD align='center'><IMG height='40' src='Images/bk 1(1).png' name='B1' onclick="src='Images/bk.png';B2.src='Images/bk 2(1).png';B3.src='Images/bk 3(1).png';B4.src='Images/bk 4(1).png';P1.src='Images/books.jpg'"></IMG></TD>
+<TD align='center'><IMG height='40' src='Images/bk 2(1).png' name='B2' onclick="src='Images/bk.png';B1.src='Images/bk 1(1).png';B3.src='Images/bk 3(1).png';B4.src='Images/bk 4(1).png';P1.src='Images/books2.png'"></IMG></TD>
+<TD align='center'><IMG height='40' src='Images/bk 3(1).png' name='B3' onclick="src='Images/bk.png';B1.src='Images/bk 1(1).png';B2.src='Images/bk 2(1).png';B4.src='Images/bk 4(1).png';P1.src='Images/books3.png'"></IMG></TD>
+<TD align='center'><IMG height='40' src='Images/bk 4(1).png' name='B4' onclick="src='Images/bk.png';B1.src='Images/bk 1(1).png';B2.src='Images/bk 2(1).png';B3.src='Images/bk 3(1).png';P1.src='Images/books4.png'"></IMG></TD>
+</TR >
+</TABLE></CENTER>
+
+<DIV id=circle_1></DIV>
+<DIV id=circle_2></DIV>
+<DIV id=circle_3></DIV>
+<DIV id=circle_4></DIV>
+
+<DIV id='Newberymedal'><A HREF='Featured Books.html' target=_self><IMG SRC= 'Images/circle.png' width= '350'></A></DIV>
+
+<DIV id='Home'><A HREF='About Us.html' target=_self><IMG SRC= 'Images/New Newbery Logo.png' width= '350'></A></DIV>
+
+<DIV id='AllNewberyBook'><A HREF='All Newbery Books.html' target=_self><IMG SRC= 'Images/all_newbery_books.png' width= '500'></A></DIV>
+
+</BODY>
+</HTML >
